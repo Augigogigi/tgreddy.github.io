@@ -29,7 +29,7 @@ body {
     overflow: hidden;
 }
 
-.bb_Site_Wrapper {
+#bb_Site_Wrapper {
     background-color: #406070;
 
     min-width: 100vw;
@@ -43,14 +43,14 @@ body {
     overflow: auto;
 }
 
-#bb_layout_grid {
+.bb_layout_grid {
     width: 100%;
     height: 100%;
 
     display: grid;
 }
 
-#bb_layout_vertical {
+.bb_layout_vertical {
     width: 100%;
     height: 100%;
 
@@ -58,7 +58,7 @@ body {
     flex-direction: column;
 }
 
-#bb_layout_horizontal {
+.bb_layout_horizontal {
     width: 100%;
     height: 100%;
 
@@ -66,7 +66,7 @@ body {
     flex-direction: row;
 }
 
-#bb_container {
+.bb_container {
     background-color: var(--colBlock);
 
     border-radius: 4px;
