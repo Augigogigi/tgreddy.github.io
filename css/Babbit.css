@@ -6,8 +6,8 @@
 }
 
 html {
-    min-width: 1vw;
-    min-height: 1vh;
+    min-width: 100vw;
+    min-height: 100vh;
     width: auto;
     height: auto;
 
@@ -15,8 +15,8 @@ html {
 }
 
 body {
-    min-width: 1vw;
-    min-height: 1vh;
+    min-width: 100vw;
+    min-height: 100vh;
     width: auto;
     height: auto;
 
@@ -26,8 +26,8 @@ body {
 .bb_Site_Wrapper {
     background-color: #406070;
 
-    min-width: 1vw;
-    min-height: 1vh;
+    min-width: 100vw;
+    min-height: 100vh;
     width: auto;
     height: auto;
     
