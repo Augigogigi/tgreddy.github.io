@@ -33,23 +33,25 @@ body {
     overflow: auto;
 }
 
-#bb_navigation_wrapper {
-    background-color: #704060;
-    
-    width: 1vw;
-    height: 4rem;
-    
-    overflow: hidden;
+#bb_layout_grid {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
 }
 
-#bb_navigation_divider {
-    
+#bb_layout_vertical {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
 }
 
-#bb_navigation_link {
+#bb_layout_horizontal {
+    width: 100%;
+    height: 100%;
 
-}
-
-#bb_navigation_logo {
-    
+    display: flex;
+    flex-direction: row;
 }
