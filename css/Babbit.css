@@ -1,0 +1,55 @@
+:root {
+    --colPrimary: red;
+    --colSecondary: yellow;
+    --colTertiary: green;
+}
+
+html {
+    min-width: 1vw;
+    min-height: 1vh;
+    width: auto;
+    height: auto;
+
+    overflow: hidden;
+}
+
+body {
+    min-width: 1vw;
+    min-height: 1vh;
+    width: auto;
+    height: auto;
+
+    overflow: hidden;
+}
+
+#bb_site_wrapper {
+    background-color: #406070;
+
+    min-width: 1vw;
+    min-height: 1vh;
+    width: auto;
+    height: auto;
+    
+    overflow: auto;
+}
+
+#bb_navigation_wrapper {
+    background-color: #704060;
+    
+    width: 1vw;
+    height: 4rem;
+    
+    overflow: hidden;
+}
+
+#bb_navigation_divider {
+    
+}
+
+#bb_navigation_link {
+
+}
+
+#bb_navigation_logo {
+    
+}
