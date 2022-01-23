@@ -1,4 +1,5 @@
 :root {
+    --colBlock: #fff;
     --colPrimary: red;
     --colSecondary: yellow;
     --colTertiary: green;
@@ -22,7 +23,7 @@ body {
     overflow: hidden;
 }
 
-#bb_site_wrapper {
+.bb_Site_Wrapper {
     background-color: #406070;
 
     min-width: 1vw;
@@ -54,4 +55,10 @@ body {
 
     display: flex;
     flex-direction: row;
+}
+
+#bb_container {
+    background-color: var(--colBlock);
+
+    border-radius: 4px;
 }
