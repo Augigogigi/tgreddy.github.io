@@ -67,10 +67,12 @@ p {
 }
 
 .bb_padder {
-	width: calc(100% - calc(2 * var(--varPadding)));
-	height: calc(100% - calc(2 * var(--varPadding)));
+	width: 100%;
+	height: 100%;
 
 	padding: var(--varPadding);
+
+	box-sizing: border-box;
 }
 
 .bb_container {
