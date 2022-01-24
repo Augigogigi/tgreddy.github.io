@@ -1,4 +1,12 @@
 :root {
+	box-sizing: border-box;
+
+	width: 100%;
+	height: 100%;
+
+	margin: 0;
+	padding: 0;
+	
 	--colBlock: #fff;
 	--colPrimary: red;
 	--colSecondary: yellow;
@@ -10,9 +18,6 @@ html {
 	width: 100vw;
 	height: 100vh;
 
-	margin: 0;
-	padding: 0;
-	
 	overflow: hidden;
 }
 
@@ -20,79 +25,44 @@ body {
 	width: 100vw;
 	height: 100vh;
 
-	margin: 0;
-	padding: 0;
-
 	overflow: hidden;
-}
-
-p {
-	margin: 0;
-	padding: 0;
 }
 
 #bb_SiteWrapper {
 	background-color: #406070;
 
-	width: 100%;
-	height: 100%;
-
-	margin: 0;
-	padding: 0;
-	
 	overflow: auto;
 }
 
 .bb_layout_grid {
-	width: 100%;
-	height: 100%;
-
 	display: grid;
 }
 
 .bb_layout_vertical {
-	width: 100%;
-	height: 100%;
-
 	display: flex;
 	flex-direction: column;
 }
 
 .bb_layout_horizontal {
-	width: 100%;
-	height: 100%;
-
 	display: flex;
 	flex-direction: row;
 }
 
 .bb_padder {
-	width: 100%;
-	height: 100%;
-
 	padding: var(--varPadding);
-
-	box-sizing: border-box;
 }
 
 .bb_container {
 	background-color: var(--colBlock);
 
-	width: 100%;
-	height: 100%;
-
 	border-radius: 4px;
 }
 
 #bb_NavBar {
-	width: 100%;
 	height: 8rem;
 }
 
 #bb_NavLogo {
 	width: 2rem;
 	height: 2rem;
-	
-	margin: 0;
-	padding: 0;
 }
