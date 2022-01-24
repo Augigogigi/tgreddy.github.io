@@ -13,7 +13,7 @@
 	--colPrimary: red;
 	--colSecondary: yellow;
 	--colTertiary: green;
-	--varPadding: 4rem;
+	--varPadding: 1rem;
 }
 
 html {
@@ -56,7 +56,7 @@ body {
 
 .bb_padder {
 	padding: var(--varPadding);
-	
+
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
