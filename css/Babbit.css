@@ -43,11 +43,15 @@ body {
 .bb_layout_vertical {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .bb_layout_horizontal {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .bb_padder {
@@ -57,7 +61,7 @@ body {
 .bb_container {
 	background-color: var(--colBlock);
 
-	border-radius: 4px;
+	border-radius: 8px;
 }
 
 #bb_NavBar {
