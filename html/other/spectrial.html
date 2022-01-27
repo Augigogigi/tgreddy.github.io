@@ -12,8 +12,34 @@
 		<div id="bb_SiteWrapper"> <!-- The Entire Site -->
 			<div id="backgroundImage"> <!-- Image -->
 				<div class="bb_bigpadder"> <!-- Padding -->
-					<div class="bb_container">
+					<div id="characterContainer">
+						<div id="infoContainer">
+							<p>Name: <span id="vName"></span></p>
+							<p>Age: <span id="vAge"></span></p>
+							<p>Gender: <span id="vGender"></span></p>
+							<p>Race: <span id="vRace"></span></p>
+							<p>Alignment: <span id="vAlignment"></span></p>
+						</div>
+						<div id="statsContainer">
+							<p>Str: <span id="vStr"></span></p>
+							<p>Con: <span id="vCon"></span></p>
+							<p>Agi: <span id="vAgi"></span></p>
+							<p>Int: <span id="vInt"></span></p>
+							<p>Cha: <span id="vCha"></span></p>
+						</div>
 					</div>
+					<form name="characterGen" onsubmit="">
+						<input type="button" name="characterName">
+						<input type="button" name="characterAge">
+						<input type="button" name="characterGender">
+						<input type="button" name="characterRace">
+						<input type="button" name="characterStr">
+						<input type="button" name="characterCon">
+						<input type="button" name="characterAgi">
+						<input type="button" name="characterInt">
+						<input type="button" name="characterCha">
+						<input type="button" name="characterAlignment">
+					</form>
 				</div>
 			</div>
 		</div>
