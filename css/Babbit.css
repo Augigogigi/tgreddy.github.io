@@ -10,6 +10,7 @@
 
 :root {
 	--colBlock: #fff;
+	--colBack: #406070;
 	--colPrimary: red;
 	--colSecondary: yellow;
 	--colTertiary: green;
@@ -30,8 +31,21 @@ body {
 	overflow: hidden;
 }
 
+button {
+	background-color: var(--colBlock);
+
+	width: 12rem;
+	height: 4rem;
+}
+
+p {
+	color: #000;
+	width: auto;
+	height: auto;
+}
+
 #bb_SiteWrapper {
-	background-color: #406070;
+	background-color: var(--colBack);
 
 	overflow: auto;
 }
