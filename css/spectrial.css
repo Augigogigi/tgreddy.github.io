@@ -1,4 +1,5 @@
 #backgroundImage {
-    background-image: url("/img/spectrialBG1.jpg");
+    background-image: url("/img/spectrialBG6.jpg");
+    background-position: bottom;
     background-size: cover;
 }

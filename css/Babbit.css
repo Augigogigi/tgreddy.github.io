@@ -63,6 +63,15 @@ body {
 	align-items: center;
 }
 
+.bb_bigpadder {
+	padding: calc(8 * var(--varPadding));
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 .bb_container {
 	background-color: var(--colBlock);
 
