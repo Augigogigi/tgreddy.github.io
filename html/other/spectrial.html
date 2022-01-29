@@ -14,15 +14,15 @@
 				<div class="bb_bigpadder"> <!-- Padding -->
 					<div id="contentContainer">
 						<div class="bb_layout_vertical">
-							<div id="characterContainer">
-								<div id="infoContainer">
+							<div id="characterContainer" class="bb_container">
+								<div id="infoContainer" class="bb_container">
 									<p>Name: <span id="vName">Roll</span></p>
 									<p>Age: <span id="vAge">Roll</span></p>
 									<p>Gender: <span id="vGender">Roll</span></p>
 									<p>Race: <span id="vRace">Roll</span></p>
 									<p>Alignment: <span id="vAlignment">Roll</span></p>
 								</div>
-								<div id="statsContainer">
+								<div id="statsContainer" class="bb_container">
 									<p>Str: <span id="vStr">Roll</span></p>
 									<p>Con: <span id="vCon">Roll</span></p>
 									<p>Agi: <span id="vAgi">Roll</span></p>
@@ -30,17 +30,19 @@
 									<p>Cha: <span id="vCha">Roll</span></p>
 								</div>
 							</div>
-							<button>Roll</button>
-							<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-								new Crate({
-									server: '936305576663740426', // K'hagar
-									channel: '936305657026601001' // #general
-								})
-							</script>
+							<div id="inputContainer" class="bb_container">
+								<button>Roll</button>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+				new Crate({
+					server: '936305576663740426', // K'hagar
+					channel: '936305657026601001' // #general
+				})
+			</script>
 		</div>
   	</body>
 </html>
