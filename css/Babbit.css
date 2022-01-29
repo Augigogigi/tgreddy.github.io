@@ -84,7 +84,6 @@ p {
 	padding: var(--varPadding);
 
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
@@ -96,7 +95,6 @@ p {
 	padding: calc(1.2 * var(--varPadding)) calc(3.2 * var(--varPadding)) calc(1.2 * var(--varPadding)) calc(3.2 * var(--varPadding));
 
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
