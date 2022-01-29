@@ -18,7 +18,7 @@ function Character(name, age, race, gender, alignment, stats) {
         return stats.reduce((r, c) => r + c);
     }
     function getDamage() {
-        return round(((1 + (stats[1] / 100)) * (1 + sqrt(round(log2(stats[3]) * 10) / 10))) * 10) / 10;
+        return Math.round(((1 + (stats[1] / 100)) * (1 + Math.sqrt(Math.round(Math.log2(stats[3]) * 10) / 10))) * 10) / 10;
     }
 
     function takeDamage(damage) {
@@ -32,7 +32,7 @@ function Character(name, age, race, gender, alignment, stats) {
 function Roll(amount, size, add) {
     var valArray;
     for (let index = 0; index < amount; index++) {
-        valArray[index] = floor(random() * size) + add;
+        valArray[index] = Math.floor(Math.random() * size) + add;
     }
     return valArray;
 }
