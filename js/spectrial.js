@@ -30,7 +30,7 @@ function Character(name, age, race, gender, alignment, stats) {
 }
 
 function Roll(amount, size, add) {
-    var valArray;
+    var valArray = [];
     for (let index = 0; index < amount; index++) {
         valArray[index] = Math.floor(Math.random() * size) + add;
     }
